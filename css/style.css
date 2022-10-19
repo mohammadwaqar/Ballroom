@@ -348,6 +348,7 @@ header{
 
    /* ####>>> Footer section open <<<### */
     footer{
+        position: relative;
         background-color:var(--color__light--gray);
         padding: 120px 0;
     }
@@ -398,12 +399,12 @@ header{
     font-family: var(--pacifico__font__family);
   }
 
- .wrapper__bottom--top{
-    position: relative;
+  .wrapper__bottom--top {
+    position: absolute;
     left: 50%;
-    top: 100px;
+    bottom: -100px;
     cursor: pointer;
- }
+}
   .paralasic {
     background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.45)),
