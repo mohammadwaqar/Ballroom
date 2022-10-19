@@ -99,12 +99,12 @@ jQuery(window).on('scroll', function () {
 });
 
 
-// $(function () {
-//   $('#scrlTop').click(function () {
-//       $('html, body').animate({
-//           scrollTop: '0px'
-//       },
-//       1000);
-//       return false;
-//   });
-// });
+$(function () {
+  $('#scrlTop').click(function () {
+      $('html, body').animate({
+          scrollTop: '0px'
+      },
+      1000);
+      return false;
+  });
+});
