@@ -100,11 +100,11 @@ jQuery(window).on('scroll', function () {
 
 
 $(function () {
-  $('#scrlTop').click(function () {
+  $('.scrlTop').click(function () {
       $('html, body').animate({
           scrollTop: '0px'
       },
-      1000);
+      300);
       return false;
   });
 });

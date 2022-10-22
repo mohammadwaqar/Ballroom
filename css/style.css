@@ -8,6 +8,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 /* common css open */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -45,7 +48,6 @@ body{
     line-height: normal;
     overflow-x: hidden !important;
     font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth;
 }
 /* ###>>>----->>> root css open  <<<------<<<### */
 :root{
