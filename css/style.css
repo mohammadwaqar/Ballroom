@@ -418,11 +418,14 @@ header{
     min-height: 700px;
   }
   .paralasic_01{
-    background:rgb(26 26 26 / 40%), url(../images/slider/banner9.jpg);
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.45)),
+    url(../images/slider/banner5.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
+    /* background-color: #000000; */
     min-height: 400px;
   }
 .wrapper__common__text{
