@@ -190,7 +190,7 @@ header{
     left: 0;
     top: 0;
     position: absolute;
-    background-color:var(--color__dark--two);
+    background-color:var(--color__blue);
 }
 
 /* mobile Menu Css open */
