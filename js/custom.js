@@ -24,12 +24,14 @@ function myFunction(x) {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed:3000,
-        arrows: false,
+        arrows:true,
+        prevArrow: '<button class="slide-arrow prev-arrow"></button>',
+        nextArrow: '<button class="slide-arrow next-arrow"></button>'
     });
 
     // text animation
 
-    var words = ['EVENT SPACE IN CENTRAL HOUSTON,',],
+    var words = ['Event Space in Dallas,',],
     part,
     i = 0,
     offset = 0,

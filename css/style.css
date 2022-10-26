@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -56,6 +58,7 @@ body{
    --montserrat__font__family:'Montserrat', sans-serif;
    --poppins__font__family:'Poppins', sans-serif;
    --pacifico__font__family: 'Pacifico', cursive;
+   --Montserrat__font__family:'Montserrat';
    /* ####>>> font-family close <<<### */
 
    /* ####>>> text color open <<<### */
@@ -83,7 +86,7 @@ body{
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--color__dark--two);
+    background: var(--color__blue);
     border-radius: 6px;
 }
 /* ###>>>----->>> root css open  <<<------<<<### */
@@ -160,8 +163,8 @@ header{
     position: relative;
 }
 .wrapper__dropdow--menu{
-    position: absolute;
-    min-width: 270px;
+    position: absolute; 
+    min-width: 175px;
     padding: 15px 20px;
     z-index: 999;
     transition: all .3s ease;
@@ -296,13 +299,13 @@ header{
     z-index: 99;
 }
 .wrapper__slider--text h2{
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     line-height: 1.1;
     color: var(--color__light--one);
-    font-family: var(--poppins__font__family);
+    font-family: var(--Montserrat__font__family);
 }
 .wrapper__slider--text h5{
     font-size: 40px;
@@ -312,7 +315,6 @@ header{
     color: var(--color__light--one);
     font-family: var(--poppins__font__family);
 }
-.wrapper__slider--text a{}
 
  .slick_salider .slick-current h2,.slick_salider .slick-current h5{
     animation: fadeInUp 1s both;
@@ -346,6 +348,10 @@ header{
 .wrapper__have--card {
     margin-bottom: 20px;
     box-shadow: rgb(17 17 26 / 5%) 0px 4px 16px, rgb(17 17 26 / 5%) 0px 8px 32px;
+    border-radius: 20px;
+}
+.wrapper__have--card img {
+    border-radius: 20px;
 }
   /* ####>>> Have an Event Section close <<<### */
 
@@ -363,7 +369,7 @@ header{
         font-size: 18px;
         margin-bottom: 10px;
         color: var(--color__dark--three);
-        font-family: var(--pacifico__font__family);
+        font-family: var(--Montserrat__font__family);
     }
     .wrapper__footer--text p a{
         display: block;
@@ -399,7 +405,7 @@ header{
   .wrapper__common__heading--01 h3{
     font-size: 60px;
     margin-bottom: 24px;
-    font-family: var(--pacifico__font__family);
+    font-family: var(--Montserrat__font__family);
   }
 
   .wrapper__bottom--top {
@@ -412,7 +418,7 @@ header{
   .paralasic__02 {
     background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.45)),
-    url(../images/slider/banner9.jpg);
+    url(../images/slider/banner03.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center top;
@@ -422,7 +428,7 @@ header{
   .paralasic__0 {
     background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.45)),
-    url(../images/slider/banner10.jpg);
+    url(../images/slider/banner02.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center top;
@@ -432,7 +438,7 @@ header{
   .paralasic__01{
     background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.45)),
-    url(../images/slider/banner11.jpg);
+    url(../images/slider/banner01.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center top;
@@ -463,8 +469,8 @@ header{
     .wrapper__oak--heading h4{
         text-align: center;
         font-size: 42px;
-        font-family: var(--pacifico__font__family);
-        text-transform: lowercase;
+        font-family: var(--Montserrat__font__family);
+        text-transform: uppercase;
     }
 
   /* Oak section close */
@@ -628,3 +634,29 @@ header{
 }
   /* #video css section close# */
   
+  .wrapper__slider__box button{
+    outline: none;
+    border: none;
+  }
+  .slide-arrow{
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    z-index: 999999;
+  }
+  .prev-arrow{
+    left: 40px;
+    width: 65px;
+    height: 50px;
+    background: url(../images/slider/icon_slider_left.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .next-arrow{
+    right: 40px;
+    width: 65px;
+    height: 50px;
+    background: url(../images/slider/icon_slider_right.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

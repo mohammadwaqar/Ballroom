@@ -37,6 +37,14 @@
     .wrapper__logo img{
         width: 120px;
     }
+    .prev-arrow{
+        left: 5px;
+        width: 50px;
+    }
+    .next-arrow{
+        right: 5px;
+        width: 50px;
+    }
 }
 @media(max-width:992px){}
 
