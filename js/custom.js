@@ -106,7 +106,8 @@ $(function () {
       $('html, body').animate({
           scrollTop: '0px'
       },
-      300);
+      900);
       return false;
   });
 });
+
