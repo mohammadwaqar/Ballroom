@@ -456,6 +456,17 @@ header{
     background-repeat: no-repeat;
     min-height: 700px;
   }
+
+  .paralasic__05{
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.45)),
+    url(../images/slider/banner01.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-height: 300px;
+  }
 .wrapper__common__text{
     width: 100%;
     text-align: center;
@@ -469,6 +480,18 @@ header{
     font-size: 75px;
     padding: 0 20px;
     text-transform: uppercase;
+}
+.wrapper__common__text h5{
+  font-size: 45px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 300px;
+    width: 100%;
+    transform: translate(-50%, -50%);
+  color: var(--color__light--one);
 }
 
   /* common heading css close */
@@ -497,27 +520,34 @@ header{
         margin-bottom: 15px;
         font-weight: 600;
     }
-    .wrapper__about--list ul li{
+    .wrapper__about--list ul  li{
         position: relative;
         font-size: 18px;
         margin-bottom: 5px;
         list-style-position: inside;
         padding-left: 25px;
     }
-    .wrapper__about--list ul li span{
+    .wrapper__about--list ul  li span{
         color: var(--color__blue);
         font-weight: 600;
     }
-    .wrapper__about--list ul li::before{
+    .wrapper__about--list ul > li::before{
         content: '';
         width: 8px;
         height: 8px;
-        border-radius: 50%;
+        border-radius: 50%; 
         position: absolute;
         left: 5px;
         top: 10px;
         background-color: var(--color__blue);
     }
+    .wrapper__about--list ol{
+      list-style-type:decimal;
+      list-style-position: inside;
+    }   
+    .wrapper__about--list ol li{
+      font-size: 18px;
+    }  
   /* ABOUT OUR List section css close */
 
   /* video css section open */
@@ -728,4 +758,27 @@ header{
     max-width: 700px;
     margin: auto;
     color: var(--color__dark--three);
+  }
+  .wrapper__term__sec{
+    padding: 90px 0;
+  }
+  .wrapper__term__box h3{
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    padding-top: 30px;
+    line-height: 1.5;
+    color: var(--color__blue);
+  }
+  .wrapper__term__box p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: var(--color__dark--three);
+    font-family: var(--Montserrat__font__family);
+  }
+  .wrapper__term__box p span{
+    font-weight: 600;
+    color: var(--color__blue);
   }
