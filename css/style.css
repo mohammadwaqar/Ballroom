@@ -222,13 +222,13 @@ header{
     padding: 8px;
     text-decoration: none;
     font-size: 18px;
-    color: #818181;
+    color: var(--color__light--one);
     display: block;
     transition: 0.3s;
   }
   
   .wrapper__mobile__menu .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    color: var(--color__blue);
   }
   
   .wrapper__mobile__menu .overlay .closebtn {
@@ -561,6 +561,8 @@ header{
       text-decoration: none;
       padding-left: 24px;
       color: var(--color__blue);
+      margin-bottom: 30px;
+      display: block;
     }
   /* ABOUT OUR List section css close */
 
@@ -697,7 +699,7 @@ header{
     position: absolute;
     top: 50%;
     margin-top: -15px;
-    z-index: 999999;
+    z-index: 9;
   }
   .prev-arrow{
     left: 40px;

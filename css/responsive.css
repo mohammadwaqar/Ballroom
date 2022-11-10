@@ -45,6 +45,24 @@
         right: 5px;
         width: 50px;
     }
+    .wrapper__menu__nav{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .wrapper__menu__nav ul > li{
+        display: block;
+    }
+    .wrapper__common__text h3,.wrapper__oak--heading h4,.wrapper__use--full h3,.wrapper__schedule--heading h3{
+        font-size: 30px;
+    }
+    .wrapper__tab__card .nav-pills .nav-link{
+        min-width: 130px;
+    }
+    .wrapper__mobile__menu .overlay a{
+        text-align: center;
+    }
 }
 @media(max-width:992px){}
 
