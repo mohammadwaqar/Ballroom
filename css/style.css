@@ -501,6 +501,13 @@ header{
     width: 100%;
   color: var(--color__light--one);
 }
+.wrapper__common__text p{
+  font-size: 24px;
+  padding: 0 20px;
+  text-transform: uppercase;
+    width: 100%;
+  color: var(--color__light--one);
+}
 
   /* common heading css close */
 
@@ -798,3 +805,166 @@ header{
     font-weight: 600;
     color: var(--color__blue);
   }
+
+
+  /* Schedule page css open */
+  .wrapper__calender{
+    padding: 60px 0;
+  }
+  .wrapper__calender__inner__box{
+    background-color: var(--color__light--one);
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px var(--color__light--two);
+    padding: 0 20px;
+    border: 1px solid var(--color__light--two);
+  }
+  .wrapper__btn__01 a{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    padding: 5px;
+    border: 1px solid var(--color__light--four);
+    background-color: var(--color__light--one);
+    transition: .3s all ease-in-out;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .wrapper__btn__01 img{
+    width: 20px;
+  }
+  .wrapper__btn__01 a:hover{
+    box-shadow: 0px 0px 10px var(--color__light--three);
+  }
+  .wrapper__border__right{
+    border-right: 1px solid var(--color__light--three)
+  }
+  .wrapper__left__calender{
+    padding: 30px 20px;
+    border-right: 1px solid var(--color__light--three)
+  }
+  .wrapper__left__calender__img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+  .wrapper__left__calender__text h6{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color__blue);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+  }
+  .wrapper__left__calender__text h3{
+    font-size: 24px;
+    text-decoration: none;
+    color: var(--color__blue);
+    margin-bottom: 15px;
+    display: block;
+  }
+  .wrapper__left__calender__text p{
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-family: var(--poppins__font__family);
+    color: var(--color__dark--three);
+  }
+  .wrapper__left__time{
+    margin-top: 20px;
+  }
+  .wrapper__left__time__icon img{
+    width: 20px;
+    height: 20px;
+  }
+  .wrapper__left__time__text h6{
+    font-size: 16px;
+    padding-left: 12px;
+    color: var(--color__dark--one);
+  }
+
+  /* Right calender open */
+  .wrapper__right__calender{
+    padding: 30px 20px;
+  }
+  .wrapper__right__calender__heading h3{
+    font-size: 26px;
+    text-decoration: none;
+    color: var(--color__blue);
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  .wrapper__calender__left__btn a{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    padding: 5px;
+    border: 1px solid var(--color__light--four);
+    background-color: var(--color__light--one);
+    transition: .3s all ease-in-out;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .wrapper__calender__left__btn img{
+    width: 15px;
+  }
+  .wrapper__calender__left__btn a:hover {
+    box-shadow: 0px 0px 10px var(--color__light--three);
+    background-color: var(--color__light--two);
+}
+.wrapper__calender__center__months h4{
+  font-size: 18px;
+    text-decoration: none;
+    color: var(--color__blue);
+    font-weight: 500;
+}
+.img_rotate{
+  transform: rotate(180deg);
+}
+.wrapper__calender__table table{
+  width: 100%;
+  margin-top: 30px;
+}
+.wrapper__calender__table table tr td,.wrapper__calender__table table tr th
+  {
+  /* border: 1px solid var(--color__light--three); */
+
+}
+.wrapper__calender__table table thead th{
+  font-size: 14px;
+  width: 50px;
+  height: 50px;
+    text-decoration: none;
+    color: var(--color__blue);
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    font-family: var(--montserrat__font__family);
+}
+.wrapper__calender__table table tbody td{
+   font-size: 14px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: var(--color__dark--one);
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    font-family: var(--montserrat__font__family);
+}
+.date__active span{
+  width: 30px;
+  height:30px;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: var(--color__light--four);
+  color: var(--color__blue) !important;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  box-shadow: 0px 2px 3px #838383;
+}
+  /* Schedule page css close */
