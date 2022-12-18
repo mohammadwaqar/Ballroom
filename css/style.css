@@ -123,7 +123,7 @@ header{
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 9999;
+    z-index: 9;
     transition: all .3s ease-in-out;
 }
 .wrapper__header--shadow{
@@ -968,3 +968,108 @@ header{
   box-shadow: 0px 2px 3px #838383;
 }
   /* Schedule page css close */
+
+
+  /* Availability calender open */
+  .wrapper__availability__calender__table table{
+    width: 100%;
+    margin-top: 15px;
+  }
+  .wrapper__availability__calender__table table tr td,.wrapper__availability__calender__table table tr th
+    {
+    border: 2px solid var(--color__light--three);
+  
+  }
+  .wrapper__availability__calender__table table thead th{
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+      text-decoration: none;
+      color: var(--color__blue);
+      font-weight: 500;
+      text-align: center;
+      vertical-align: middle;
+      font-family: var(--montserrat__font__family);
+  }
+  .wrapper__availability__calender__table table tbody td{
+     font-size: 14px;
+      width: 40px;
+      height: 40px;
+      text-decoration: none;
+      color: var(--color__dark--one);
+      font-weight: 500;
+      text-align: center;
+      vertical-align: middle;
+      cursor: pointer;
+      font-family: var(--montserrat__font__family);
+  }
+  .date__unavailable{
+    background-color: #f1f1f1;
+    color: var(--color__dark--one) !important;
+    font-weight: 700;
+    transition: .1s;
+  }
+  .date__unavailable:hover{
+    background-color: #d8d8d8;
+    color: #6d6c6c;
+    font-weight: 700;
+  }
+  .date__available{
+    background-color: #d4f296;
+    color: #5b8800 !important;
+    font-weight: 700;
+    transition: .1s;
+
+  }
+  .date__available:hover{
+    background-color: #b8f147;
+    color: #5b8800 !important;
+    font-weight: 700;
+  }
+  
+  .date__booked{
+    background-color:#f2bd96;
+    color: firebrick !important;
+    font-weight: 700;
+    transition: .1s;
+  }
+  .date__booked:hover{
+    background-color:#faaa71;
+    color: firebrick !important;
+    font-weight: 700;
+    transition: .1s;
+  }
+  .wrapper__price__booking__modal .tab-content{
+    height: 350px;
+    overflow-y: auto;
+}
+.wrapper__price__booking__modal .nav-tabs .nav-link.active{
+  color:var(--color__light--one);
+    background-color: var(--color__blue);
+    border-color: var(--color__blue);
+}
+.wrapper__price__booking__modal .nav-tabs {
+  border-bottom: 1px solid var(--color__blue);
+}
+.wrapper__price__booking__modal .nav-tabs .nav-link i{
+ padding-right: 5px;
+}
+.wrapper__price__booking__modal .modal-title{
+  font-size: 28px;
+  color: var(--color__blue);
+  font-family: var(--Montserrat__font__family);
+}
+.wrapper__calender__book h3{
+  font-size: 24px;
+  color: var(--color__dark--three);
+  font-family: var(--Montserrat__font__family);
+
+}
+.wrapper__calender__form label{
+  padding-right: 15px;
+}
+.wrapper__btn__continue{
+  color: var(--color__light--one);
+  background-color: var(--color__blue);
+}
+    /* Availability calender open */
