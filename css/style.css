@@ -1110,4 +1110,29 @@ header{
   font-size: 26px;
   font-weight: 500;
 }
+.wrapper__pricing--new{
+  min-height: 540px;
+}
+.wrapper__create__booking__sec{
+  padding: 40px 0;
+}
+.wrapper__create__booking h4{
+  font-size: 28px;
+  color: var(--color__blue);
+  margin-bottom: 10px;
+}
+.wrapper__create__booking p{
+  font-size: 18px;
+  color: var(--color__dark--three);
+  margin-bottom: 20px;
+}
+.wrapper__table--price thead th{
+  color: var(--color__blue);
+  font-weight: 600;
+  font-size: 18px;
+}
+.wrapper__table--price b{
+  font-weight: bold;
+  padding-right: 5px;
+}
     /* Availability calender open */
