@@ -1072,4 +1072,42 @@ header{
   color: var(--color__light--one);
   background-color: var(--color__blue);
 }
+.wrapper__time__btn {
+  border: 2px solid var(--color__blue);
+  color: var(--color__blue);
+}
+.wrapper__time__btn:hover{
+  color: var(--color__blue);
+}
+.bg_blue{
+  background-color: var(--color__blue);
+  color: var(--color__light--one);
+}
+.bg_blue:hover{
+  color: var(--color__light--one);
+}
+.wrapper__calender__form input[type="checkbox"] {
+  transform: scale(1.4);
+}
+.btn-schedule{
+  background-color: var(--color__blue);
+  font-weight: 600;
+  color: var(--color__light--one);
+  border-radius:30px;
+  padding: 15px 20px;
+}
+.btn-schedule:hover{
+  color: var(--color__light--one);
+}
+
+.wrapper__left__calender__text h5{
+  color: var(--color__blue);
+  font-size: 20px;
+  font-weight: 600;
+}
+.wrapper__left__calender__text h4{
+  color: var(--color__blue);
+  font-size: 26px;
+  font-weight: 500;
+}
     /* Availability calender open */
