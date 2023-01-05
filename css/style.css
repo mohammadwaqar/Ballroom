@@ -1086,7 +1086,7 @@ header{
 .bg_blue:hover{
   color: var(--color__light--one);
 }
-.wrapper__calender__form input[type="checkbox"] {
+.wrapper__calender__form input[type="checkbox"],.wrapper__calender__form input[type="radio"] {
   transform: scale(1.4);
 }
 .btn-schedule{
@@ -1134,5 +1134,15 @@ header{
 .wrapper__table--price b{
   font-weight: bold;
   padding-right: 5px;
+}
+.wrapper__trems{
+  height:200px;
+  overflow-y: auto;
+  border: 2px solid var(--color__blue);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.wrapper__trems  b{
+  font-weight: bold;
 }
     /* Availability calender open */
